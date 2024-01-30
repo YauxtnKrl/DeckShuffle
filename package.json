@@ -1,0 +1,31 @@
+{
+  "name": "deckshuffle",
+  "version": "1.0.0",
+  "description": "Web app for visualizing various shuffling algorithms",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YauxtnKrl/DeckShuffle.git"
+  },
+  "author": "Justin Carroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YauxtnKrl/DeckShuffle/issues"
+  },
+  "homepage": "https://github.com/YauxtnKrl/DeckShuffle#readme",
+  "devDependencies": {
+    "gts": "^5.2.0",
+    "typescript": "~5.2.0",
+    "@types/node": "20.8.2"
+  }
+}
